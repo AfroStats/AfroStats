@@ -35,8 +35,7 @@ The function returns the the estsimates, confidence intervals and the p values. 
 \references{
 %% ~put references to the literature/web site here ~
 \itemize{
-\item{lm function in R and also the broom package}
-\item{broom,roxygen2,devtools pacakges}
+\item{lm function in R,also broom,roxygen2,devtools packages}
 }
 }
 
