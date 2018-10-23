@@ -8,11 +8,11 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-Fitted several Linear Regression at the same. This  returns the summary of all the the Linear models fitted. \\ Should be familiar with \href{https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html}{lm}.
+Fitts several Linear Regression models at the sametime. This  returns the summary of all the the Linear models fitted. See \href{https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html}{lm}.
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{data_Y: Data with all the outcomes variables. The number of variables is the number of models you are creating}
+  \item{data_Y: Data with all the outcomes variables. The number of variables data_Y is the number of models you are creating}
   \item{data_X: Data containing all the dependent variable, has the same length as data_Y}{
 %%     ~~Describe \code{x} here~
 }
