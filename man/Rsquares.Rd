@@ -13,7 +13,8 @@ Azad_Rsquare(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{data_Y: Data with all the outcomes variables. The number of variables is the number of models you are creating}
+  \item{data_Y: Data with all the outcomes variables. The number of variables in this dataset is the same as\\ 
+        the number of models you are creating}
   \item{data_X: Data containing all the dependent variable, has the same length as data_Y}{
 %%     ~~Describe \code{x} here~
 }
@@ -33,8 +34,7 @@ Azad_Rsquare(x)
 }
 \references{
 %% ~put references to the literature/web site here ~
-\item{lm function in R and also the broom package}
-\item{broom pacakge}
+\item{lm function in R and also broom, roxegen2 and devtools pacakges}
 }
 
 \author{
