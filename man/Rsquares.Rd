@@ -33,7 +33,9 @@ Azad_Rsquare(x)
 }
 \references{
 %% ~put references to the literature/web site here ~
+  \itemize{
 \item{lm function in R and also broom, roxegen2 and devtools pacakges}
+    }
 }
 
 \author{
