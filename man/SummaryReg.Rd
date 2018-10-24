@@ -12,8 +12,8 @@ Fits several Linear Regression models. This  returns the summary of all the the 
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{data_Y:  Data with all the outcomes/dependent variables. The number of variables in this dataset is the same as the number of models you are creating}
-  \item{data_X: Data containing all the predictor/independent variables, has the same length as data_Y}{
+  \item{data_Y:  Data with all the outcomes or dependent variables. The number of variables in this dataset is the same as the number of models you are creating}
+  \item{data_X: Data containing all the predictor or independent variables, has the same length as data_Y}{
 %%     ~~Describe \code{x} here~
 }
 }
@@ -52,7 +52,7 @@ Faisal Atakora
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-  summary1=Azad_reg_summary(data_Y,data_X)
+  summary1 <- Azad_reg_summary(data_Y,data_X)
   View(summary1)
 Yet to be updated
 % Add one or more standard keywords, see file 'KEYWORDS' in the
