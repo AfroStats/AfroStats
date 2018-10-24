@@ -50,7 +50,7 @@ Faisal Atakora
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
-Rsquares=Azad_Rsquare(data_Y,Data)
+Rsquares <- Azad_Rsquare(data_Y,Data)
 View(Rsquares)
 \examples{
   
