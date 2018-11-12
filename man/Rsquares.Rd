@@ -50,9 +50,11 @@ Faisal Atakora
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
+\examples{
 Rsquares <- Azad_Rsquare(data_Y,Data)
 View(Rsquares)
-\examples{
-  
-Yet to be updated
+
+Yet to be updated with data
 }
+
+
