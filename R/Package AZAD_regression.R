@@ -8,7 +8,7 @@ library(broom)
 Azad_mutiple_Regression=function(data_Y,data_X){
   BB1=c() ###create an empty
   for(i in 1:ncol(data_Y)){
-    mod11=lm(scale(log(data_Y[,i]))~.,data_X)
+    mod11=lm(data_Y[,i]~.,data_X)
     PValues=data.frame(coef(summary(mod11))[,"Pr(>|t|)"])
     b=cbind(coef(mod11),confint(mod11))
     RC1=cbind(b,PValues)
