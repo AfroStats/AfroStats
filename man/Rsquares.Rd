@@ -51,7 +51,7 @@ Faisal Atakora
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-Rsquares <- Azad_Rsquare(data_Y,Data)
+Rsquares <- Azad_Rsquare(data_Y,Data_X)
 View(Rsquares)
 
 Yet to be updated with data
