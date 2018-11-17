@@ -25,9 +25,9 @@ Fits several Linear Regression models. This  returns the summary of all the  mod
 The function returns the the estsimates, confidence intervals and the p values. The name infront of the values specifies the model
 %%  If it is a LIST, use
 %%  \item{Estimates}{Description of 'comp1'}
-\item{Estimates}{the coefficients of the estimates}
-\item{Lower Confidence Interval}{The lower limit of the estimates}
-\item{Upper Confidence Interval}{The upper limit of the estimates}
+\item{Beta Est}{the beta estimates}
+\item{LCI}{The lower limit of the estimates}
+\item{LCI}{The upper limit of the estimates}
 \item{Pvalues}{ The pvalues from each model}
 %%  \item{}{Description of 'comp2'}
 %% ...
