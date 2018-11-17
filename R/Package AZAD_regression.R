@@ -38,8 +38,8 @@ Azad_reg_summary=function(data_Y,data_X){
                    RC222=cbind(RC222,RC22) }
 
 
-    colnames(RC222)[1]="Ind Var"
-    RC222$`Ind Var`=RC222[,2]
+    colnames(RC222)[1]="Independent Variables"
+    RC222$`Independent Variables`=RC222[,2]
 
     for(i in 1:ncol(data_Y)){
                   RC222[,(2+(i-1)*5)]= " " }
