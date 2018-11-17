@@ -11,7 +11,7 @@ Azad_mutiple_Regression=function(data_Y,data_X){
     mod11=lm(data_Y[,i]~.,data_X)
     PValues=data.frame(coef(summary(mod11))[,"Pr(>|t|)"])
     b=cbind(coef(mod11),confint(mod11))
-    RC1=cbind(b,PValues)
+    RC1=cbind(round(b,2),PValues)
     BB1=rbind(BB1,RC1)
   }
   return(BB1)
@@ -61,6 +61,7 @@ return(RC222)
 ##############################################################################################################
 ##############################################################################################################
 Azad_Rsquare=function(data_Y,data_X){
+  library(broom)
   BB1=c() ###create an empty
   for(i in 1:ncol(data_Y)){
     mod11=lm(scale(log(data_Y[,i]))~.,data_X)
