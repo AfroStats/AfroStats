@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-Fits several Linear Regression models. This  returns the summary of all the the Linear models fitted. See \href{https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html}{lm}.
+Fits several Linear Regression models. This  returns the summary of all the  models fitted. See \href{https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html}{lm}.
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
