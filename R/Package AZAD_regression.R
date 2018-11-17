@@ -24,7 +24,7 @@ Azad_reg_summary=function(data_Y,data_X){
     dim(RC1)
     RC11=cbind(rownames(RC1),round(RC1[,1],10),round(RC1[,2],10),round(RC1[,3],10),round(RC1[,4],10))
     RC11=data.frame(RC11)
-    colnames(RC11)=c("Variables","Estimates", "Lower Confidence Interval","Upper Confidence Interval","P Values")
+    colnames(RC11)=c("Variables","Beta Est", "LCI","UCI","P Values")
 
     #######
     RC222 <- data.frame(matrix())
@@ -32,8 +32,8 @@ Azad_reg_summary=function(data_Y,data_X){
 
     for(i in 1:ncol(data_Y)){
                    RC22=data.frame(RC11[(1+(i-1)*(sec_Y_intcept-1)):((sec_Y_intcept-1)*i),],check.names=F)
-                   colnames(RC22)=c(paste0(names(data_Y)[i]),paste0(names(data_Y)[i]," Estimates"),paste0(names(data_Y)[i]," Lower Confidence Interval"),
-                   paste0(names(data_Y)[i]," Upper Confidence Interval"),paste0(names(data_Y)[i]," Pvalues"))
+                   colnames(RC22)=c(paste0(names(data_Y)[i]),paste0(names(data_Y)[i]," Beta Est"),paste0(names(data_Y)[i]," LCI"),
+                   paste0(names(data_Y)[i]," UCI"),paste0(names(data_Y)[i]," Pvalues"))
 
                    RC222=cbind(RC222,RC22) }
 
